@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rock Paper Scissors version</title>
+  </head>
+  <link rel="stylesheet" href="/ROCK-PAPER-SCISSORS/style.css">
+  <body> 
+    <div>
+      <button class="move-icon" onclick="controller(`rock`)">
+        <img src="/ROCK-PAPER-SCISSORS/image/rock-emoji.png" class="rock icon">
+      </button>
+      <button class="move-icon" onclick="controller(`paper`)">
+        <img  src="/ROCK-PAPER-SCISSORS/image/paper-emoji.png" class="paper icon">
+      </button>
+      <button class="move-icon" onclick="controller(`scissors`)">
+        <img  src="/ROCK-PAPER-SCISSORS/image/scissors-emoji.png" class="scissors icon">
+      </button>
+      <button class="move-icon" onclick="reset()">
+        <img src="/ROCK-PAPER-SCISSORS/image/reset-emoji.png" class="reset icon">
+      </button>
+    </div>
+    <div class="demonstration">
+      <div class="state-board">
+      </div>
+      <p class="score-board"></p>
+    </div>
+    
+    <script src="/ROCK-PAPER-SCISSORS/script.js"></script>
+  </body>
+</html>

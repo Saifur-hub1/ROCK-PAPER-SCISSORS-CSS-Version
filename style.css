@@ -1,0 +1,32 @@
+body{
+  background-color: aliceblue;
+  font-size: 30px;
+  font-weight: bold;
+}
+.icon{
+  height: 50px;
+}
+.move-icon{
+  background-color: lightseagreen;
+  border: 2px solid lightyellow;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  box-shadow: 2px 2px 4px;
+}
+.custom-icon{
+  background-color: transparent;
+  height: 70;
+  width: 70px;
+}
+.move-icon:hover{
+  opacity: .8;
+}
+.move-icon:active{
+  opacity: .7;
+}
+.demonstration{
+  margin-left: 40px;
+  margin-top: 40px;
+  line-height: 50px;
+}
